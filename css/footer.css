@@ -1,0 +1,138 @@
+#footer .first-block {
+    background: var(--dark, #1B1B1B);
+    padding: 54px 0;
+}
+
+#footer .first-block .inner-text p {
+    color: white;
+    font-family: 'bankgothicregular';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 20px 0;
+    text-align: justify;
+}
+
+#footer .first-block .socail-icons {
+    font-size: 27px;
+    color: white;
+    margin: 10px 0;
+}
+
+#footer .navigation h3 {
+    color: white;
+    font-family: 'bankgothicregular';
+    padding: 10px 15px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 5px;
+}
+
+#footer .navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#footer .navigation ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'bankgothicregular';
+    font-size: 17px;
+font-style: normal;
+font-weight: 400;
+text-transform: capitalize;
+letter-spacing: 5px;
+}
+#footer .service h3 {
+    color: white;
+    font-family: 'bankgothicregular';
+    padding: 10px 5px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 5px;
+}
+#footer .service ul {
+    list-style: none;
+    margin: 0;
+    padding:0;
+}
+
+#footer .service ul li{
+    text-decoration: none;
+    color: white;
+    font-family: 'bankgothicregular';
+    font-size: 17px;
+font-style: normal;
+font-weight: 400;
+
+text-transform: capitalize;
+    padding: 10px 5px ;
+    letter-spacing: 5px;
+}
+#footer .contact-us h3{
+    color: white;
+    font-family: 'bankgothicregular';
+    padding: 10px 0;
+    font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 5px;
+}
+#footer .contact-us ul {
+    list-style: none;
+    margin: 0;
+    padding:0;
+}
+#footer .contact-us ul li{
+    text-decoration: none;
+    color: white;
+    font-family: 'bankgothicregular';
+    font-size: 17px;
+font-style: normal;
+font-weight: 400;
+    margin: 10px -8px ;
+    padding: 10px 0;
+    display: flex;
+    align-items: baseline;
+    letter-spacing: 5px;
+}
+#footer .contact-us i{
+    font-size: 19px;
+    color: #FE360B;
+    margin:-10px 0 ;
+    padding: 5px 10px;
+}
+#footer .lower-footer{
+    padding-top: 30px;
+    border: 1px solid  #323232;;
+    border-bottom: transparent;
+    border-left: transparent;
+    border-right: transparent;
+}
+#footer .lower-footer p{
+    color: #FFF;
+    font-family: 'bankgothicregular';
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 3px;
+}
+#footer .lower-footer ul li{
+    margin: 0;
+   color: #FFF;
+text-align: right;
+font-family: 'bankgothicregular';
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+letter-spacing: 2px;
+}

@@ -1,0 +1,295 @@
+@import url(header.css);
+@import url(footer.css);
+
+.banner{
+    position: relative;
+}
+.banner .caption {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 30%;
+    max-width: 70%;
+}
+
+.banner .caption h1 {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 63px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-family: 'bankgothicregular';
+}
+
+.banner .subtitle {
+    color: #FFF;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    font-family: 'bankgothicregular';
+    letter-spacing: 10px;
+}
+
+.feature-blocks .inner {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 20px;
+}
+
+.feature-blocks .inner:hover {
+    background: var(--dark, #1B1B1B);
+}
+
+.feature-blocks .inner h2 {
+    color: var(--dark, #1B1B1B);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    font-family: 'bankgothicregular';
+    margin: 0;
+}
+
+.feature-blocks .inner:hover h2 {
+    color: #fff;
+}
+
+.feature-blocks .inner i {
+    font-size: 74px;
+    color: #FE360B;
+}
+
+.feature-blocks .inner:hover i {
+    font-size: 74px;
+    color: lightblue;
+}
+
+#main .experince-block {
+    padding: 75px 0;
+}
+
+#main .experince-text strong {
+    color: var(--main, #FE360B);
+    font-family: 'bankgothicbold';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#main .experince-text h3 {
+    color: var(--dark, #1B1B1B);
+    font-family: 'bankgothicregular';
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    padding: 20px 0;
+}
+
+#main .experince-text p {
+    color: #000;
+    text-align: justify;
+    font-family: 'bankgothicregular';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 5px;
+}
+
+#main .experince-text button {
+    background-color: #FE360B;
+    color: #FFF;
+    text-align: justify;
+    font-family: 'bankgothicregular';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    border: none;
+    letter-spacing: 4px;
+    padding: 20px  30px;
+}
+
+#main .service-block .cyber-security {
+    display: flex;
+    background-color: #000;
+    padding: 51px 30px;
+    height: 100%;
+}
+#main .service-block .cyber-security ul{
+    list-style: none;
+    margin: 0;
+    padding: 0 0 20px;
+}
+#main .service-block .cyber-security ul li {
+    font-size: 19px;
+    font-family: 'bankgothicregular';
+    position: relative;
+    padding: 4px 0 0 20px;
+}
+#main .service-block .cyber-security ul li:before{
+    position: absolute;
+    top: 0;
+    left:0;
+    bottom: 0;
+    right: 0;
+  content: url(../images/elisp.png);
+}
+#main .service-block .cyber-security h3 {
+    font-family: 'bankgothicregular';
+    font-size: 35px;
+}
+#main .service-block .cyber-security i {
+    font-size: 228px;
+    padding: 0;
+    margin: 0;
+    color: #313030;
+    display: flex;
+    align-items: center;
+}
+#main .cyber-security .inner-text{
+    margin: 0 30px;
+}
+#main .service-block .fast {
+    display: flex;
+    padding: 92px 30px;
+    background-color: #FE360B;
+    height: 100%;
+}
+#main .service-block .fast .inner-text ul {
+    list-style: none;
+    color: #FFFFFF;
+}
+
+#main .service-block .fast ul li:nth-child(1) {
+    font-size: 35px;
+    font-family: 'bankgothicregular';
+}
+
+#main .service-block .fast ul li:nth-child(2) {
+    font-size: 45px;
+    font-family: 'bankgothicregular';
+}
+
+#main .service-block i {
+    font-size: 228px;
+    padding: 0;
+    margin: 0;
+    color: #FF634E;
+}
+
+#main .contact-block {
+    background: url(../images/contact.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+}
+
+#main .contact-block .field h2 {
+    font-size: 44px;
+    color: #FFF;
+    font-family: 'bankgothicregular';
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+
+#main .contact-block .field p {
+    color: #DCDCDC;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.6px;
+    font-family: 'bankgothicregular';
+    letter-spacing: 2px;
+}
+
+#main .contact-block .field {
+    max-width: 1028px;
+    background: var(--dark, #1B1B1B);
+    opacity: 0.92;
+    padding: 30px;
+    margin: 30px auto;
+}
+
+#main .contact-block .field .form-control {
+    border: 1px solid tomato;
+    border-radius: 3px;
+    padding: 14px 16px;
+    font-size: 19px;
+    font-family: 'bankgothicregular';
+    background: #1B1B1B;
+    opacity: 0.95;
+    border-color: white;
+    font-style: normal;
+    font-weight: 400;
+    color: #FFF;
+}
+
+#main form .btn-primary {
+    background-color: #FE360B;
+    color: #FFF;
+    padding: 5px 97px;
+    border-style: none;
+    font-size: 17px;
+    font-family: 'bankgothicregular';
+}
+
+.logo-block {
+    overflow: hidden;
+    padding: 112px 0;
+}
+
+.logo-block .inner-text {
+    text-align: center;
+}
+
+.logo-block .inner-text h2 {
+    color: var(--dark, #1B1B1B);
+    text-align: center;
+    font-family: 'bankgothicregular';
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 5px;
+    padding: 20px 0;
+}
+
+.logo-block .inner-text p {
+    color: var(--dark, #1B1B1B);
+    text-align: center;
+    font-family: 'bankgothicregular';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 5px;
+    padding: 20px 0;
+}
+
+.inner-logo .col {
+    min-width: 220px;
+    max-width: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 82px;
+    margin-bottom: 20px;
+}
+
+.inner-logo .col img {
+    display: block;
+    margin: 0 auto;
+}

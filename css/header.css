@@ -1,0 +1,47 @@
+@import url(fonts.css);
+#header .navbar-brand{
+    padding: 0;
+    margin: 0 30px;
+}
+#header .nav-item .nav-link{
+    padding: 0 14px;
+    color: var(--dark, #1B1B1B);
+    font-family: 'bankgothic_md_btmedium';
+    font-size: 19px;
+    font-weight: 400;
+line-height: normal;
+}
+#header .navbar-nav{
+    display: flex;
+    align-items: center;
+}
+#header span .nav-link{
+    font-size: 22px;
+    font-family: 'bankgothic_md_btmedium';
+    list-style: none;
+    color: var(--dark, #1B1B1B);
+    text-transform: uppercase; 
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+line-height: normal;
+}
+#header span .nav-link:before{
+    width: 1px;
+    height: 40px;
+   background: #C5C5C5;
+   display: inline-block;
+   content: "";
+   vertical-align: middle;
+}
+#header span{
+    padding: 0 46px;
+}
+#header span a{
+   list-style: none;
+}
+#header span i{
+    color: #FE360B;
+    margin: 0 20px;
+    font-size: 28px;
+}
